@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+Backend/ai_env/
+
+.DS_Store
+
+*.db

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Smart Speed Alert System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- TITLE -->
+
+        <h1>
+            🚗 Smart Speed Alert
+        </h1>
+
+        <!-- SPEED BOX -->
+
+        <div class="speed-box">
+
+            <h2 id="speed">
+                0 km/h
+            </h2>
+
+        </div>
+
+        <!-- STATUS -->
+
+        <div class="status" id="status">
+
+            SAFE DRIVING
+
+        </div>
+
+        <!-- BUTTONS -->
+
+        <div class="buttons">
+
+            <button onclick="startTrip()">
+
+                ▶ Start Trip
+
+            </button>
+
+            <button onclick="endTrip()">
+
+                ⏹ End Trip
+
+            </button>
+
+        </div>
+
+        <!-- STATS -->
+
+        <div class="stats">
+
+            <p>
+
+                Max Speed:
+
+                <span id="maxSpeed">
+
+                    0
+
+                </span>
+
+                km/h
+
+            </p>
+
+            <p>
+
+                Alerts:
+
+                <span id="alerts">
+
+                    0
+
+                </span>
+
+            </p>
+
+            <p>
+
+                Location:
+
+                <span id="location">
+
+                    Loading...
+
+                </span>
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- SCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
